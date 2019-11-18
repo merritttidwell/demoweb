@@ -1,0 +1,45 @@
+{
+  "schema_version": 2,
+  "environment": "development",
+"user_identities": {
+    "email": "stable@gmail.com",
+    "customer_id": "Playstation-2100",
+    "other" : "stable_trainer",
+    "facebook" : "stable@gmail.com",
+    "twitter" : "@stable_trainer"
+  },
+  "user_attributes" : {
+    "$age": "25",
+    "$gender": "M",
+    "$country": "USA",
+    "$zip": "10016",
+    "$city": "San Francisco",
+    "$state": "CA",
+    "$firstname": "John",
+    "$lastname": "Tide",
+    "$mobile": "123-456-7890",
+    "Langugage" : "English",
+    "Birthday" : "11/14/95",
+    "online_id" : "stable_trainer",
+    "Last_Purchase_Date" : "1/17/18",
+    "Last_Purchase_Game_Title" : "Zombies",
+    "Console_Registered" : "true"
+
+
+  },
+
+  "events" :
+    [
+        {
+        "data" :
+        	{
+        	"event_name" : "User Info Update",
+        	"custom_event_type": "UserPreference",
+			     "custom_attributes": {
+
+			}
+			},
+	            "event_type" : "custom_event"
+        }
+    ]
+}
